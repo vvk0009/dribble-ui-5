@@ -204,6 +204,7 @@
 @media (max-width:823px){
     .container{
         flex-direction: column;
+        
     }
     .container .div_1{
         width: 100%;
@@ -237,6 +238,21 @@
     }
     .btn_2{
         font-size: 8px;
+    }
+    
+}
+@media (max-width:481px){
+    input{
+        display: none;
+    }
+    .box img {
+        height: 120px;
+    }
+    .btn_1{
+        margin-left: 100px;
+    }
+    .upper .fa-magnifying-glass{
+        display: none;
     }
     
 }
